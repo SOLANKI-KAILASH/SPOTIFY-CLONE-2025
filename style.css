@@ -178,6 +178,7 @@ i{
 .card:hover{
     transform: scale(1.03);
 }
+
 .cards .cards-container .card img{
     height: 15rem;
     width: 14rem;
@@ -216,19 +217,20 @@ i{
     height: 3.75rem;
     width: 100%;
     justify-content: space-between;
-}
-
-.music-player .album{
-    margin-left: 40px;
-    display: flex;
+    
 }
 
 .album{
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
     width: 25%;
 }
 
+
 .album-details{
     display: flex;
+    flex-wrap: wrap;
     padding: 0.3rem 0rem 0rem 1rem;
     flex-direction: column;
     gap: 0.5rem;
@@ -241,11 +243,11 @@ i{
 
 .player{
     width: 50%;
-    margin-left: 15rem;
+
 }
 .player-icon{
+    margin-left: 8rem;
     padding-top: 0.3rem;
-    margin-left: 10rem;
 }
 .player-icon img{
     height: 0.9rem;
@@ -259,6 +261,7 @@ i{
 
 .playback-bar{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .progress-bar{
@@ -285,6 +288,7 @@ i{
 
 .controls{
     display: flex;
+    flex-wrap: wrap;
     width: 25%;
     margin-top: 1.5rem;
 }
